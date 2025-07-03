@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/favicon.ico">
+
+    <title>Cafe Nocturne</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Allura&family=Playwrite+DK+Loopet:wght@100..400&display=swap" rel="stylesheet">
+    <script src="js/script.js" defer></script>
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div id="loading">
+        <img src="images/logo.png" alt="Cafe Nocturne ロゴ">
+        <p>Loading...</p>
+    </div>
+
+    <section id="hero" class="hero-section">
+        <div id="hero-background">
+            <img src="images/mainvisual.png" id="mainvisual" alt="夜の街並みのカフェ外観">
+        </div>
+        <div id="logo">
+            <img src="images/logo.png" alt="Cafe Nocturne ロゴ">
+        </div>
+
+        <header id="hero-header">
+            <div id="social-icons">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-x-twitter"></i></a>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+            </div>
+
+            <nav>
+                <ul>
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div id="hero-content">
+            <h1 id="site-title" class="opening">Café Nocturne</h1>
+            <div id="sub-content">
+                <h2 id="catchphrase" class="opening">"Awaken the Night."</h2>
+                <p id="subtext" class="opening">― 夜を目覚めさせる一杯を。</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="menu">
+        <h2 class="sec-title fadein">Menu</h2>
+        <p class="description fadein">
+            深夜にだけ開く、静けさと香りに包まれたカフェ。<br>
+            こだわりのブレンドと音楽が、あなたの夜をやさしく満たします。
+        </p>
+        <div id="desktop-menu">
+            <div id="menu-cards">
+                <div class="menu-card">
+                    <h2 class="sub-title fadein">drink</h2>
+                    <div id="drink-content">
+                        <div id="drink-text">
+                            <dl class="drink-item fadein" data-src="images/drink1.png" data-caption="「スウィング・エスプレッソ」">
+                                <dt>「スウィング・エスプレッソ」</dt>
+                                <dd>夜の始まりを告げる、鮮烈な一杯。深煎りの豆が織りなす、心地よい苦味と深いコクをお楽しみください。</dd>
+                            </dl>
+
+                            <dl class="drink-item fadein" data-src="images/drink2.png" data-caption="「ムーンライト・ドリップ」">
+                                <dt>「ムーンライト・ドリップ」</dt>
+                                <dd>夜の静けさの中で、一滴一滴丁寧に淹れるハンドドリップコーヒー。奥深く澄んだ味わいは、まるで月明かりのように心を穏やかに照らします。</dd>
+                            </dl>
+
+                            <dl class="drink-item fadein" data-src="images/drink3.png" data-caption="「メロウ・抹茶ラテ」">
+                                <dt>「メロウ・抹茶ラテ」</dt>
+                                <dd>とろけるような口当たりと、まろやかな抹茶の香りが溶け合う一杯。夜の静かな時間に、心安らぐひとときをお届けします。</dd>
+                            </dl>
+
+                            <dl class="drink-item fadein" data-src="images/drink4.png" data-caption="「ナイト・シトラス」">
+                                <dt>「ナイト・シトラス」</dt>
+                                <dd>夜風のように心地よい、爽やかな柑橘が香る一杯。
+                                    すっきりとした味わいが、一日の終わりに穏やかな清涼感をもたらします。</dd>
+                            </dl>
+
+                            <dl class="drink-item fadein" data-src="images/drink5.png" data-caption="「アンビエント・ティー」">
+                                <dt>「アンビエント・ティー」</dt>
+                                <dd>アンビエントミュージックのように、穏やかな香りが広がる一杯。
+                                    厳選された茶葉が織りなす繊細な味わいは、五感を優しく包み込み、深いリラックスへと誘います。</dd>
+                            </dl>
+
+                            <dl class="drink-item fadein" data-src="images/drink6.png" data-caption="「ナイト・ロースト」">
+                                <dt>「ナイト・ロースト」</dt>
+                                <dd>深く焙煎された豆が織りなす、夜にふさわしい一杯。
+                                    芳醇な香りと重厚なコクは、一日の締めくくりに静かな満足感を与えてくれます。</dd>
+                            </dl>
+                        </div>
+                        <figure>
+                            <img id="drink-img" class="fadein" src="images/drink1.png" alt="スウィング・エスプレッソ">
+                            <figcaption id="drink-name" calss="fadein">「スウィング・エスプレッソ」</figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+            <div id="food-sweets">
+                <h2 class="sub-title fadein">Food&Sweets</h2>
+                <div id="slide-img" class="fadein">
+                    <img src="images/food1.png" alt="フード1">
+                    <img src="images/food2.png" alt="フード2">
+                    <img src="images/food3.png" alt="フード3">
+                    <img src="images/food4.png" alt="フード4">
+                    <img src="images/sweets1.png" alt="スイーツ1">
+                    <img src="images/sweets2.png" alt="スイーツ2">
+                    <img src="images/sweets3.png" alt="スイーツ3">
+                    <img src="images/specials1.png" alt="スペシャル1">
+                    <img src="images/specials2.png" alt="スペシャル2">
+                    <img src="images/specials3.png" alt="スペシャル3">
+                </div>
+                <a id="menu-btn" class="fadein" href="Food&Sweets.html">Food&Sweets詳細はこちら</a>
+            </div>
+        </div>
+        <div id="mobile-menu">
+
+            <div class="flex-item fadein">
+                <a class="item" href="drink.html">
+                    <img src="images/drink1.png" alt="テキストテキストテキストテキスト">
+                    <p class="title">drink</p>
+                </a>
+                <a class="item" href="Food&Sweets.html">
+                    <img src="images/food4.png" alt="テキストテキストテキストテキスト">
+                    <p class="title">Food&Sweets</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery">
+        <h2 class="sec-title fadein">Marchandise</h2>
+        <div id="gallery-grid">
+            <figure class="gallery-item">
+                <img src="images/marchandise1.jpg" alt="Nocturne Blend Beans">
+                <figcaption>Nocturne Blend Beans</figcaption>
+            </figure>
+            <figure class="gallery-item">
+                <img src="images/marchandise2.jpg" alt="Midnight Drip Pack">
+                <figcaption>Midnight Drip Pack</figcaption>
+            </figure>
+            <figure class="gallery-item">
+                <img src="images/marchandise3.jpg" alt="Roast Beans">
+                <figcaption>Roast Beans</figcaption>
+            </figure>
+            <figure class="gallery-item">
+                <img src="images/marchandise4.png" alt="Nocturne Mug">
+                <figcaption>Nocturne Mug</figcaption>
+            </figure>
+            <figure class="gallery-item">
+                <img src="images/marchandise5.png" alt="Aroma Candle">
+                <figcaption> Aroma Candle</figcaption>
+            </figure>
+            <figure class="gallery-item">
+                <img src="images/marchandise6.png" alt="Box Set">
+                <figcaption>Box Set</figcaption>
+            </figure>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2 class="sec-title fadein">About</h2>
+        <div id="about-content" class="fadein">
+            <div id="about-text">
+                <dl>
+                    <dt>所在地:</dt>
+                    <dd>大阪市北区中之島 3-2-1</dd>
+                </dl>
+                <dl>
+                    <dt>営業時間:</dt>
+                    <dd>18:00〜翌2:00（月曜定休）</dd>
+                </dl>
+                <dl>
+                    <dt>席数:</dt>
+                    <dd>カウンター6席、テーブル12席、ソファ2組</dd>
+                </dl>
+                <dl>
+                    <dt>設備:</dt>
+                    <dd>Wi-Fi、電源、読書スペース、ジャズBGM</dd>
+                </dl>
+            </div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13122.448987926815!2d135.48726440727714!3d34.68973456677344!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e6e524da26e9%3A0x9d3d6a4ecff36df9!2z44CSNTMwLTAwMDUg5aSn6Ziq5bqc5aSn6Ziq5biC5YyX5Yy65Lit5LmL5bO2!5e0!3m2!1sja!2sjp!4v1750038514961!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2 class="sec-title fadein">Contact</h2>
+        <form id="contact-form" class="fadein">
+            <label for="name">お名前：</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">メールアドレス：</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="subject">件名：</label>
+            <select id="subject" name="subject">
+                <option value="reservation">ご予約</option>
+                <option value="product">商品について</option>
+                <option value="other">その他</option>
+            </select>
+
+            <label for="message">お問い合わせ内容：</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <label>
+                <input type="checkbox" required>
+                プライバシーポリシーに同意します
+            </label>
+
+            <button type="submit">送信</button>
+        </form>
+
+        <div id="modal" class="modal">
+            <div class="modal-content">
+                <span class="close-button">×</span>
+                <p>フォームが送信されました！</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <a href="#hero" id="back-to-top" class="fadein">ページトップへ戻る</a>
+        <p>© 2025 Café Nocturne</p>
+    </footer>
+</body>
+</html>
